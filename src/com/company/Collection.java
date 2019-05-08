@@ -16,5 +16,6 @@ public class Collection {
         this.collectionValue = collectionValue;
         this.totalFees = totalFees;
         this.totalDividends = totalDividends;
+
     }
 }

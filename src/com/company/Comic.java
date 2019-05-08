@@ -1,7 +1,8 @@
 package com.company;
 
 public class Comic {
-    protected int collectorNo;
+    protected int collectorID;
+    protected int comicID;
     protected String bookTitle;
     protected int issueNo;
     protected  String issueTitle;
@@ -9,9 +10,10 @@ public class Comic {
     protected double price;
     protected double value;
 
-    public Comic(int collectorNo, String bookTitle, int issueNo,
+    public Comic(int collectorID, int comicID, String bookTitle, int issueNo,
                  String issueTitle, int year, double price, double value) {
-        this.collectorNo = collectorNo;
+        this.collectorID = collectorID;
+        this.comicID = comicID;
         this.bookTitle = bookTitle;
         this.issueNo = issueNo;
         this.issueTitle = issueTitle;
